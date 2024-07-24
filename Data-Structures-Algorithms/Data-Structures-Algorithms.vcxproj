@@ -133,10 +133,14 @@
     <ClCompile Include="Array Sort\01-Selection-Sort.cpp" />
     <ClCompile Include="Data-Structures-Algorithms.cpp" />
     <ClCompile Include="Array Sort\02-Insertion-Sort.cpp" />
+    <ClCompile Include="Recursion\00-Power-of-Two.cpp" />
+    <ClCompile Include="Recursion\01-Backward-Counting.cpp" />
+    <ClCompile Include="Recursion\02-Forward-Counting.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array-Search.h" />
     <ClInclude Include="Header Files\Array-Sort.h" />
+    <ClInclude Include="Header Files\Recursion.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
