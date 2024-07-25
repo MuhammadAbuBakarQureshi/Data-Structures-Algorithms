@@ -39,6 +39,9 @@
     <ClCompile Include="Recursion\02-Forward-Counting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Array Sort\03-Quick-Sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array-Search.h">

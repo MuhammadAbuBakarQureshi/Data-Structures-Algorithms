@@ -1,11 +1,11 @@
 #include <iostream>
-#include "Header Files/Recursion.h"
+#include "Header Files/Array-Sort.h"
 
 using namespace std;
 
 int main() {
 
-	forward_counting();
-	
+	quick_sort();
+
 	return 0;
 }
