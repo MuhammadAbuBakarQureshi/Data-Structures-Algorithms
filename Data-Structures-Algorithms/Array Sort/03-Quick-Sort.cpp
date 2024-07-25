@@ -34,7 +34,7 @@ int partition(int arr[], int start, int end) {
 
 	while (i < pivotIndex && j > pivotIndex) {
 
-		while (arr[i] < pivotIndex) {
+		while (arr[i] <= pivotIndex) {
 
 			i++;
 		}
@@ -72,7 +72,6 @@ int sort(int arr[], int start, int end) {
 	sort(arr, p + 1, end);
 
 }
-
 
 int quick_sort() {
 
