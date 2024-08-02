@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-	quick_sort();
+	count_sort();
 
 	return 0;
 }

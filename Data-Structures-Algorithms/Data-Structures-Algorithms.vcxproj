@@ -132,6 +132,7 @@
     <ClCompile Include="Array Sort\00-Bubble-Sort.cpp" />
     <ClCompile Include="Array Sort\01-Selection-Sort.cpp" />
     <ClCompile Include="Array Sort\03-Quick-Sort.cpp" />
+    <ClCompile Include="Array Sort\04-Count-Sort.cpp" />
     <ClCompile Include="Data-Structures-Algorithms.cpp" />
     <ClCompile Include="Array Sort\02-Insertion-Sort.cpp" />
     <ClCompile Include="Recursion\00-Power-of-Two.cpp" />
