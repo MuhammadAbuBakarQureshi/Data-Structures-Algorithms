@@ -32,10 +32,7 @@ void sort(int arr[], int arr_size) {
 
 	for (int i = 0; i < arr_size; i++) {
 
-		int index = arr[i];
-
-		count_arr[index]++;
-
+		count_arr[arr[i]]++;
 	}
 
 	int j = 0;
