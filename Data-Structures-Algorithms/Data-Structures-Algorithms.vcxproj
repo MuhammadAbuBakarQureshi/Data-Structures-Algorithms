@@ -134,9 +134,10 @@
     <ClCompile Include="Array Sort\03-Quick-Sort.cpp" />
     <ClCompile Include="Array Sort\04-Count-Sort.cpp" />
     <ClCompile Include="Array Sort\05-Radix-Sort.cpp" />
+    <ClCompile Include="Array Sort\Array-Functions.cpp" />
     <ClCompile Include="Data-Structures-Algorithms.cpp" />
     <ClCompile Include="Array Sort\02-Insertion-Sort.cpp" />
-    <ClCompile Include="Header Files\Array-Functions.cpp" />
+    <ClCompile Include="Header Files\Array-Functions.h" />
     <ClCompile Include="Recursion\00-Power-of-Two.cpp" />
     <ClCompile Include="Recursion\01-Backward-Counting.cpp" />
     <ClCompile Include="Recursion\02-Forward-Counting.cpp" />

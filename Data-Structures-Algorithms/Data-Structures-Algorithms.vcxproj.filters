@@ -48,7 +48,10 @@
     <ClCompile Include="Array Sort\05-Radix-Sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Header Files\Array-Functions.cpp">
+    <ClCompile Include="Header Files\Array-Functions.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Array Sort\Array-Functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
