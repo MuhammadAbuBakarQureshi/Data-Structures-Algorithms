@@ -36,7 +36,9 @@ int linear_search() {
 
 	print_arr(arr, arr_size);
 
-	cout << linear_search(arr, arr_size) << endl;
+	int result = linear_search(arr, arr_size);
+
+	(result == -1) ? cout << "Element not found" : cout << "Element Found at index : " << result << endl;
 
 	return 0;
 }
