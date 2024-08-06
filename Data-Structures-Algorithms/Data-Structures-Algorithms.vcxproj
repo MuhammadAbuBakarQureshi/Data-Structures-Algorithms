@@ -129,6 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Array Search\00-Lowest-Value.cpp" />
+    <ClCompile Include="Array Search\01-Linear-Search.cpp" />
     <ClCompile Include="Array Sort\00-Bubble-Sort.cpp" />
     <ClCompile Include="Array Sort\01-Selection-Sort.cpp" />
     <ClCompile Include="Array Sort\03-Quick-Sort.cpp" />
