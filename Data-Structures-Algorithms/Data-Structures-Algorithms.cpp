@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 
-	merge_sort();
+	binary_search();
 
 	return 0;
 }

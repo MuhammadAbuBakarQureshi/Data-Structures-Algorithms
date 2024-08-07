@@ -130,6 +130,7 @@
   <ItemGroup>
     <ClCompile Include="Array Search\00-Lowest-Value.cpp" />
     <ClCompile Include="Array Search\01-Linear-Search.cpp" />
+    <ClCompile Include="Array Search\02-Binary-Search.cpp" />
     <ClCompile Include="Array Sort\00-Bubble-Sort.cpp" />
     <ClCompile Include="Array Sort\01-Selection-Sort.cpp" />
     <ClCompile Include="Array Sort\03-Quick-Sort.cpp" />
@@ -148,6 +149,9 @@
     <ClInclude Include="Header Files\Array-Search.h" />
     <ClInclude Include="Header Files\Array-Sort.h" />
     <ClInclude Include="Header Files\Recursion.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="text.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

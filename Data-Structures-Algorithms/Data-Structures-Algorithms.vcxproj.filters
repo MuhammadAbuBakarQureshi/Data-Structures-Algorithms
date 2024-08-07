@@ -60,6 +60,9 @@
     <ClCompile Include="Array Sort\06-Merge-Sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Array Search\02-Binary-Search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array-Search.h">
@@ -71,5 +74,8 @@
     <ClInclude Include="Header Files\Recursion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="text.txt" />
   </ItemGroup>
 </Project>

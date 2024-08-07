@@ -1,0 +1,13 @@
+1. Merge Sort
+
+	--> Made it capable to process decimal inputs
+	--> working of Merge sort
+	--> Recode it without using recursion
+	--> Use index instead of making new arrays
+	--> Applications of merge sort
+
+	Q. solve inversion count problem
+
+2. Binary Search
+
+	--> Check if it is proper (both)
