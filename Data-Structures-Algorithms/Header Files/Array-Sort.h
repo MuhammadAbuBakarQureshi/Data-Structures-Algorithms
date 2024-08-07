@@ -12,3 +12,5 @@ int quick_sort();
 int count_sort();
 
 int radix_sort();
+
+int merge_sort();

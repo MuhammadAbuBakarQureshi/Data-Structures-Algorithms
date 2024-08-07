@@ -57,6 +57,9 @@
     <ClCompile Include="Array Search\01-Linear-Search.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Array Sort\06-Merge-Sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array-Search.h">

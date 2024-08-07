@@ -40,5 +40,7 @@ int linear_search() {
 
 	(result == -1) ? cout << "Element not found" : cout << "Element Found at index : " << result << endl;
 
+	delete[] arr;
+
 	return 0;
 }
