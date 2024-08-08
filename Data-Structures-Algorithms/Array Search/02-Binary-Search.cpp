@@ -7,22 +7,22 @@ int binary_search_algorithm_recursion(int arr[], int start, int end, int search_
 
 	// RECURSIVE METHOD
 
-	if (search_number > max(arr, end + 1))
+	if (start > end)
 		return -1;
 
 	int half = (start + end) / 2;
 
-	if (search_number < arr[half]) {
+	if (search_number == arr[half]) {
+
+		return half;
+	}
+	else if (search_number < arr[half]) {
 
 		binary_search_algorithm_recursion(arr, start, half - 1, search_number);
 	}
 	else if (search_number > arr[half]) {
 
 		binary_search_algorithm_recursion(arr, half + 1, end, search_number);
-	}
-	else if (search_number == arr[half]) {
-
-		return half;
 	}
 }
 
@@ -56,9 +56,9 @@ int binary_search_algorithm_iteration(int arr[], int start, int end, int search_
 
 int binary_search() {
 
-	int arr_size = 5;
+	int arr_size = 10;
 
-	int arr[5] = {45, 87, 91, 105, 204};
+	int arr[10] = {30, 35, 40, 45, 50, 55, 87, 91, 105, 204};
 
 	int search_number;
 
