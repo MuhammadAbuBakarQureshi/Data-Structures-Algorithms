@@ -3,50 +3,55 @@
 
 using namespace std;
 
-int binary_search_algorithm(int arr[], int start, int end, int search_number) {
+int binary_search_algorithm_recursion(int arr[], int start, int end, int search_number) {
+
+	// RECURSIVE METHOD
 
 	if (search_number > max(arr, end + 1))
-		return 0;
+		return -1;
 
 	int half = (start + end) / 2;
 
 	if (search_number < arr[half]) {
 
-		binary_search_algorithm(arr, start, half, search_number);
+		binary_search_algorithm_recursion(arr, start, half - 1, search_number);
 	}
 	else if (search_number > arr[half]) {
-		
-		binary_search_algorithm(arr, half + 1, end, search_number);
+
+		binary_search_algorithm_recursion(arr, half + 1, end, search_number);
 	}
 	else if (search_number == arr[half]) {
 
-		return 1;
+		return half;
+	}
+}
+
+int binary_search_algorithm_iteration(int arr[], int start, int end, int search_number){
+
+	// ITERATION METHOD
+
+	int s = start, e = end;
+
+	while (s <= e) {
+
+		int half = (s + e) / 2;
+
+		if (search_number == arr[half]) {
+
+			return half;
+		
+		}else if (search_number < arr[half]) {
+		
+			e = half - 1;
+
+		}else if (search_number > arr[half]) {
+
+			s = half + 1;
+		}
+
 	}
 
-	//int s = start, e = end;
-
-	//while (s <= e) {
-
-	//	int half = (s + e) / 2;
-
-	//	if (search_number < arr[half]) {
-
-	//		e = half - 1;
-	//	}
-
-	//	if (search_number > arr[half]) {
-
-	//		s = half + 1;
-	//	}
-
-	//	if (search_number == arr[half]) {
-
-	//		return 1;
-	//	}
-
-	//}
-
-	//return 0;
+	return -1;
 }
 
 int binary_search() {
@@ -61,7 +66,11 @@ int binary_search() {
 
 	cin >> search_number;
 
-	cout << binary_search_algorithm(arr, 0, arr_size - 1, search_number) << endl;
+	// int result = binary_search_algorithm_recursion(arr, 0, arr_size - 1, search_number);
+
+	int result = binary_search_algorithm_iteration(arr, 0, arr_size - 1, search_number);
+
+	(result == -1) ? cout << "Number not found" : cout << "Number found at index : " << result << endl;
 
 	return 0;
 }
