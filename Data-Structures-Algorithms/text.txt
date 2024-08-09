@@ -7,7 +7,3 @@
 	--> Applications of merge sort
 
 	Q. solve inversion count problem
-
-2. Binary Search
-
-	--> Check if it is proper (both)
