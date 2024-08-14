@@ -11,13 +11,13 @@ int counting(int n) {
 
 	cout << n << endl;
 	
-	counting(n - 1);
+	return counting(n - 1);
 
 }
 
 int backward_counting() {
 
-	counting(5);
+	cout << counting(5);
 
 	return 0;
 }

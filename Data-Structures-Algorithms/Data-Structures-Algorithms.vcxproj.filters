@@ -18,16 +18,16 @@
     <ClCompile Include="Data-Structures-Algorithms.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Array Search\00-Lowest-Value.cpp">
+    <ClCompile Include="Array\Array Search\00-Lowest-Value.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Array Sort\00-Bubble-Sort.cpp">
+    <ClCompile Include="Array\Array Sort\00-Bubble-Sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Array Sort\01-Selection-Sort.cpp">
+    <ClCompile Include="Array\Array Sort\01-Selection-Sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Array Sort\02-Insertion-Sort.cpp">
+    <ClCompile Include="Array\Array Sort\02-Insertion-Sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Recursion\00-Power-of-Two.cpp">
@@ -39,39 +39,45 @@
     <ClCompile Include="Recursion\02-Forward-Counting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Array Sort\03-Quick-Sort.cpp">
+    <ClCompile Include="Array\Array Sort\03-Quick-Sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Array Sort\04-Count-Sort.cpp">
+    <ClCompile Include="Array\Array Sort\04-Count-Sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Array Sort\05-Radix-Sort.cpp">
+    <ClCompile Include="Array\Array Sort\05-Radix-Sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Header Files\Array-Functions.h">
+    <ClCompile Include="Header Files\Array\Array-Functions.h">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Array Sort\Array-Functions.cpp">
+    <ClCompile Include="Array\Array Sort\Array-Functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Array Search\01-Linear-Search.cpp">
+    <ClCompile Include="Array\Array Search\01-Linear-Search.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Array Sort\06-Merge-Sort.cpp">
+    <ClCompile Include="Array\Array Sort\06-Merge-Sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Array Search\02-Binary-Search.cpp">
+    <ClCompile Include="Array\Array Search\02-Binary-Search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Linked Lists\Singly\Basic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header Files\Array-Search.h">
+    <ClInclude Include="Header Files\Array\Array-Search.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Header Files\Array-Sort.h">
+    <ClInclude Include="Header Files\Array\Array-Sort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Header Files\Recursion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Linked Lists\LL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
