@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
 
-	singly_basic();
-
+	print_linked_list();
+	
 	return 0;
 }

@@ -97,6 +97,36 @@ void insert_at_position(Node** head, int position, int newData) {
 
 }
 
+void delete_position(Node* &head, int position) {
+
+	Node* temp = head;
+	if (position == 1) {
+
+		temp = head;
+
+		head = head->next;
+
+		delete temp;
+			
+		return;
+	}
+
+	int count = 1;
+
+	for (Node* iterNode = head; iterNode; iterNode = iterNode->next) {
+
+		count++;
+
+		temp = temp->next;
+
+		if (count == position) {
+
+			iterNode->next = temp->next;
+			break;
+		}
+	}
+}
+
 int singly_basic() {
 
 	// Node* head = new Node(10);
@@ -146,7 +176,13 @@ int singly_basic() {
 
 	insert_at_tail(&head, 30);
 
-	insert_at_position(&head, 3, 20);
+	insert_at_position(&head, 2, 20);
+
+	printlist(head);
+
+	delete_position(head, 1);
+
+	cout << "After deletion" << endl;
 
 	printlist(head);
 
