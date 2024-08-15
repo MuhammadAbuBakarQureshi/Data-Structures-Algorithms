@@ -22,14 +22,6 @@ void insert(Node*& head, int newData) {
 
 	Node* n = new Node(newData);
 
-	/*for (Node* iterNode = head; iterNode != NULL; iterNode = iterNode->next) {
-
-		if (iterNode->next == NULL) {
-
-			iterNode->next = n;
-		}
-	}
-}*/
 	if (head == NULL) {
 
 		head = n;
