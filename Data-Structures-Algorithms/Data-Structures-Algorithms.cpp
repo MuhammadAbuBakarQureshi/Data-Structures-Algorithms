@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
 	
-	linear_search_ll();
+	largest_number_ll();
 	
 	return 0;
 }

@@ -69,7 +69,10 @@
     <ClCompile Include="Linked Lists\Singly\Practice Questions\Print-Linked-List.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Linked Lists\Singly\Practice Questions\Search.cpp">
+    <ClCompile Include="Linked Lists\Singly\Practice Questions\Linear-Search-LL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Linked Lists\Singly\Practice Questions\Largest-Number-LL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
