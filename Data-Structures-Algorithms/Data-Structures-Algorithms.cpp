@@ -8,8 +8,8 @@
 using namespace std;
 
 int main() {
-
-	print_linked_list();
+	
+	linear_search_ll();
 	
 	return 0;
 }

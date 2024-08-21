@@ -69,6 +69,9 @@
     <ClCompile Include="Linked Lists\Singly\Practice Questions\Print-Linked-List.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Linked Lists\Singly\Practice Questions\Search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array\Array-Search.h">

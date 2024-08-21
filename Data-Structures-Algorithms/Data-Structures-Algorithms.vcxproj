@@ -143,6 +143,7 @@
     <ClCompile Include="Header Files\Array\Array-Functions.h" />
     <ClCompile Include="Linked Lists\Singly\Basic.cpp" />
     <ClCompile Include="Linked Lists\Singly\Practice Questions\Print-Linked-List.cpp" />
+    <ClCompile Include="Linked Lists\Singly\Practice Questions\Search.cpp" />
     <ClCompile Include="Recursion\00-Power-of-Two.cpp" />
     <ClCompile Include="Recursion\01-Backward-Counting.cpp" />
     <ClCompile Include="Recursion\02-Forward-Counting.cpp" />
