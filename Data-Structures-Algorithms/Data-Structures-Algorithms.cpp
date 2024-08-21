@@ -8,8 +8,8 @@
 using namespace std;
 
 int main() {
-	
-	largest_number_ll();
+
+	minimum_number_ll();
 	
 	return 0;
 }

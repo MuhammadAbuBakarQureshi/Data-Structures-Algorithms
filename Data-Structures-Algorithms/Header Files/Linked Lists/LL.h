@@ -13,3 +13,5 @@ int singly_basic();
 	int linear_search_ll();
 
 	int largest_number_ll();
+
+	int minimum_number_ll();
