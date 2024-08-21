@@ -36,8 +36,6 @@ void insert_largest_number(Node*& head, int data) {
 
 int LN(Node* head){
 
-	// int max = INT_MIN;
-
 	Node* max = new Node(INT_MIN);
 
 	for (Node* iterNode = head; iterNode; iterNode = iterNode->next) {
