@@ -63,22 +63,25 @@
     <ClCompile Include="Array\Array Search\02-Binary-Search.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Linked Lists\Singly\Basic.cpp">
+    <ClCompile Include="Linked Lists\1. Singly Linked Lists\Basic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Linked Lists\Singly\Practice Questions\00-Print-Linked-List.cpp">
+    <ClCompile Include="Linked Lists\1. Singly Linked Lists\Practice Questions\00-Print-Linked-List.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Linked Lists\Singly\Practice Questions\01-Linear-Search-LL.cpp">
+    <ClCompile Include="Linked Lists\1. Singly Linked Lists\Practice Questions\01-Linear-Search-LL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Linked Lists\Singly\Practice Questions\02-Largest-Number-LL.cpp">
+    <ClCompile Include="Linked Lists\1. Singly Linked Lists\Practice Questions\02-Largest-Number-LL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Linked Lists\Singly\Practice Questions\03-Minimum-Number-LL.cpp">
+    <ClCompile Include="Linked Lists\1. Singly Linked Lists\Practice Questions\03-Minimum-Number-LL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Linked Lists\Singly\Practice Questions\04-Sum-of-all-LL.cpp">
+    <ClCompile Include="Linked Lists\1. Singly Linked Lists\Practice Questions\04-Sum-of-all-LL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Linked Lists\2. Doubly Linked Lists\Basics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

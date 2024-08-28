@@ -15,3 +15,7 @@ int singly_basic();
 	int minimum_number_ll();
 
 	int sum_all_ll();
+
+// Doubly Linked Lists
+
+int doubly_basic();
