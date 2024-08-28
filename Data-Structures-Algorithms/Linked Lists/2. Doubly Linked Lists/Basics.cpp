@@ -178,7 +178,7 @@ int doubly_basic() {
 	insert_at_tail_doubly_ll(tail, 30);
 	insert_at_position_doubly_ll(head, tail, 40, 4);
 
-	deletion_doubly_ll(head, tail, 5);
+	deletion_doubly_ll(head, tail, 4);
 	
 	//backward_traverse_doubly_ll(tail);
 
