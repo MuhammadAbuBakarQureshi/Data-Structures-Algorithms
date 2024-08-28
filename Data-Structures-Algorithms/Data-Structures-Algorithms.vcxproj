@@ -145,7 +145,8 @@
     <ClCompile Include="Linked Lists\Singly\Practice Questions\02-Largest-Number-LL.cpp" />
     <ClCompile Include="Linked Lists\Singly\Practice Questions\00-Print-Linked-List.cpp" />
     <ClCompile Include="Linked Lists\Singly\Practice Questions\01-Linear-Search-LL.cpp" />
-    <ClCompile Include="Linked Lists\Singly\Practice Questions\03-Minimum-Number.cpp" />
+    <ClCompile Include="Linked Lists\Singly\Practice Questions\03-Minimum-Number-LL.cpp" />
+    <ClCompile Include="Linked Lists\Singly\Practice Questions\04-Sum-of-all-LL.cpp" />
     <ClCompile Include="Recursion\00-Power-of-Two.cpp" />
     <ClCompile Include="Recursion\01-Backward-Counting.cpp" />
     <ClCompile Include="Recursion\02-Forward-Counting.cpp" />

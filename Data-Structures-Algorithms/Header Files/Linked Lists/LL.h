@@ -15,3 +15,5 @@ int singly_basic();
 	int largest_number_ll();
 
 	int minimum_number_ll();
+
+	int sum_all_ll();

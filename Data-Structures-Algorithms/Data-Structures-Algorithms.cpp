@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
 
-	minimum_number_ll();
+	sum_all_ll();
 	
 	return 0;
 }

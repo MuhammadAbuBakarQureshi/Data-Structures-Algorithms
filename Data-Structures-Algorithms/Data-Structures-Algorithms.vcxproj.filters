@@ -75,7 +75,10 @@
     <ClCompile Include="Linked Lists\Singly\Practice Questions\02-Largest-Number-LL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Linked Lists\Singly\Practice Questions\03-Minimum-Number.cpp">
+    <ClCompile Include="Linked Lists\Singly\Practice Questions\03-Minimum-Number-LL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Linked Lists\Singly\Practice Questions\04-Sum-of-all-LL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
