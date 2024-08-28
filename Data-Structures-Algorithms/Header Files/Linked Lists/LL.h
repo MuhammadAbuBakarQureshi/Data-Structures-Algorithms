@@ -8,8 +8,6 @@ int singly_basic();
 
 	int print_linked_list();
 
-	int reverse_linked_list();
-
 	int linear_search_ll();
 
 	int largest_number_ll();
