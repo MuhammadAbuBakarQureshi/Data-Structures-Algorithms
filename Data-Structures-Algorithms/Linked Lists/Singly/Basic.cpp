@@ -99,15 +99,22 @@ void insert_at_position(Node** head, int position, int newData) {
 
 void delete_position(Node* &head, int position) {
 
+
+	// Check if the Linked List is empty
+
+	if (head == NULL || position < 1) {
+
+		cout << "Linked List is empty or Invalid position" << endl;
+		return;
+	}
+
 	Node* temp = head;
+
 	if (position == 1) {
 
 		temp = head;
-
 		head = head->next;
-
 		delete temp;
-			
 		return;
 	}
 
@@ -119,11 +126,15 @@ void delete_position(Node* &head, int position) {
 
 		temp = temp->next;
 
-		if (count == position) {
+		if (position == count) {
 
 			iterNode->next = temp->next;
-			break;
+
+			delete temp;
+
+			return;
 		}
+
 	}
 }
 
