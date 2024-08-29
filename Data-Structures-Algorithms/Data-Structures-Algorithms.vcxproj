@@ -149,6 +149,7 @@
     <ClCompile Include="Linked Lists\1. Singly Linked Lists\Practice Questions\04-Sum-of-all-LL.cpp" />
     <ClCompile Include="Linked Lists\2. Doubly Linked Lists\Basics.cpp" />
     <ClCompile Include="Linked Lists\3. Circular Linked Lists\1. Singly Circular Linked List\Singly-Circular-Basics.cpp" />
+    <ClCompile Include="Linked Lists\3. Circular Linked Lists\2. Doubly Circular Linked List\Doubly-Circular-Basics.cpp" />
     <ClCompile Include="Recursion\00-Power-of-Two.cpp" />
     <ClCompile Include="Recursion\01-Backward-Counting.cpp" />
     <ClCompile Include="Recursion\02-Forward-Counting.cpp" />

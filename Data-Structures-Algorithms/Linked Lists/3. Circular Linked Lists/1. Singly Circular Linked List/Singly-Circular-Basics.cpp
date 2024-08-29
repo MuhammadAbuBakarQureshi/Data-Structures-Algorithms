@@ -135,9 +135,9 @@ int singly_circular_ll_basic() {
 
 	int total_elements= 1;
 
-	//insert_at_tail_SC_ll(tail, total_elements, 20);
-	//insert_at_head_SC_ll(tail, total_elements, 0);
-	//insert_after_number_SC_ll(tail, total_elements, 15, 10);
+	insert_at_tail_SC_ll(tail, total_elements, 20);
+	insert_at_head_SC_ll(tail, total_elements, 0);
+	insert_after_number_SC_ll(tail, total_elements, 15, 10);
 	deletion_SC_ll(tail, total_elements, 10);
 
 	traverse_SC_ll(tail, total_elements);

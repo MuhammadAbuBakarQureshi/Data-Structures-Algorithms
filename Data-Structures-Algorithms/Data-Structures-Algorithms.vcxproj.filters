@@ -87,6 +87,9 @@
     <ClCompile Include="Linked Lists\3. Circular Linked Lists\1. Singly Circular Linked List\Singly-Circular-Basics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Linked Lists\3. Circular Linked Lists\2. Doubly Circular Linked List\Doubly-Circular-Basics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array\Array-Search.h">

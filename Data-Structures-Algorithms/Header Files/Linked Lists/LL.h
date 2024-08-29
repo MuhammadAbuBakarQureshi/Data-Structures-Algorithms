@@ -28,3 +28,5 @@ int doubly_basic();
 
 
 	// Doubly Circular Linked List
+
+	int doubly_circular_ll_basic();
