@@ -68,7 +68,7 @@ void reverse_traverse_DC_ll(Node* head) {
 	cout << endl;
 }
 
-void insert_at_head_DC_ll(Node*& head, float data) {
+void insert_at_head_DC_ll(Node*& head, int data) {
 
 	if (head == NULL) {
 
@@ -101,7 +101,7 @@ void insert_at_head_DC_ll(Node*& head, float data) {
 	}
 }
 
-void insert_after_DC_ll(Node*& head, float data, float element) {
+void insert_after_DC_ll(Node*& head, int data, int element) {
 
 	Node* n = new Node(data);
 
@@ -139,7 +139,7 @@ void insert_after_DC_ll(Node*& head, float data, float element) {
 	} while (iterNode != head);
 }
 
-void deletion_DC_ll(Node*& head, float element) {
+void deletion_DC_ll(Node*& head, int element) {
 
 	if (head == NULL) {
 
@@ -207,14 +207,13 @@ int doubly_circular_ll_basic() {
 
 	cout << "Enter First Node value : ";
 
-	float first_value;
+	int first_value;
 
 	cin >> first_value;
 
 	Node* head = new Node(first_value);
 	
-	float data, element;
-	int option;
+	int option, data, element;
 	bool condition = true;
 
 	while (condition) {
