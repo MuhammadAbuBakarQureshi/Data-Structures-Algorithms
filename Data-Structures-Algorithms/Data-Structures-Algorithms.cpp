@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
 
-	doubly_basic();
+	singly_circular_ll_basic();
 
 	return 0;
 }

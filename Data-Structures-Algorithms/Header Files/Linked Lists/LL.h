@@ -19,3 +19,12 @@ int singly_basic();
 // Doubly Linked Lists
 
 int doubly_basic();
+
+// Circular Linked Lists
+
+	// Singly Circular Linked List
+
+	int singly_circular_ll_basic();
+
+
+	// Doubly Circular Linked List
