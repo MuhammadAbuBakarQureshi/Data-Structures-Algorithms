@@ -10,7 +10,7 @@ using namespace std;
 
 int main() {
 
-	queues_basics_using_array();
+	queues_basics_using_linked_list();
 	
 	return 0;
 }

@@ -99,6 +99,9 @@
     <ClCompile Include="Stacks &amp; Queues\Queues\Queues-Basics-Using-Array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Stacks &amp; Queues\Queues\Queues-Basics-Using-Linked-List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array\Array-Search.h">
