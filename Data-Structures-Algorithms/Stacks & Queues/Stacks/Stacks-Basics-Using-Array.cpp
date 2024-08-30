@@ -137,7 +137,7 @@ int stacks_basics_using_array() {
 
 		case 5:
 			
-			cout << "\n\n\t\t\t\t FUNCTIONS FOR STACK \t\t\t\t\n\n" << endl;
+			cout << "\n\n\t\t\t\t STACK SIZE \t\t\t\t\n\n" << endl;
 
 			cout << "Stack size = " << stack_size << endl;
 
