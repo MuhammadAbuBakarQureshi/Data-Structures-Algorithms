@@ -153,7 +153,7 @@
     <ClCompile Include="Recursion\00-Power-of-Two.cpp" />
     <ClCompile Include="Recursion\01-Backward-Counting.cpp" />
     <ClCompile Include="Recursion\02-Forward-Counting.cpp" />
-    <ClCompile Include="Stacks &amp; Queues\Stacks\Stacks-Basics.cpp" />
+    <ClCompile Include="Stacks &amp; Queues\Stacks\Stacks-Basics-Using-Array.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array\Array-Search.h" />

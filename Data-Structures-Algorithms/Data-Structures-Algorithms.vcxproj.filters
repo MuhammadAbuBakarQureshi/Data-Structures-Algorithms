@@ -90,7 +90,7 @@
     <ClCompile Include="Linked Lists\3. Circular Linked Lists\2. Doubly Circular Linked List\Doubly-Circular-Basics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Stacks &amp; Queues\Stacks\Stacks-Basics.cpp">
+    <ClCompile Include="Stacks &amp; Queues\Stacks\Stacks-Basics-Using-Array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

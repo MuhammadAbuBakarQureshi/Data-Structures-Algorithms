@@ -1,3 +1,3 @@
 #pragma once
 
-int stacks_basics();
+int stacks_basics_using_array();
