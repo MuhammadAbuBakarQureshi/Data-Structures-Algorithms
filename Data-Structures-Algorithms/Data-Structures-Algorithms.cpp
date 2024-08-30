@@ -10,7 +10,7 @@ using namespace std;
 
 int main() {
 
-	stacks_basics_using_array();
+	stack_basics_using_linked_list();
 	
 	return 0;
 }
