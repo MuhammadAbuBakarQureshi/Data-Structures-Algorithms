@@ -23,6 +23,7 @@ int binary_search_algorithm_recursion(int arr[], int start, int end, int search_
 
 		binary_search_algorithm_recursion(arr, half + 1, end, search_number);
 	}
+	return 0;
 }
 
 int binary_search_algorithm_iteration(int arr[], int start, int end, int search_number){

@@ -90,6 +90,9 @@
     <ClCompile Include="Linked Lists\3. Circular Linked Lists\2. Doubly Circular Linked List\Doubly-Circular-Basics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Stacks &amp; Queues\Stacks\Stacks-Basics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array\Array-Search.h">
@@ -102,6 +105,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Header Files\Linked Lists\LL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Stacks &amp; Queues\Stacks-and-Queues.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

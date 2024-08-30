@@ -4,12 +4,13 @@
 #include "Header Files/Array/Array-Functions.h"
 #include "Header Files/Linked Lists/LL.h"
 #include "Header Files/Recursion.h"
+#include "Header Files/Stacks & Queues/Stacks-and-Queues.h"
 
 using namespace std;
 
 int main() {
 
-	doubly_circular_ll_basic();
-
+	stacks_basics();
+	
 	return 0;
 }

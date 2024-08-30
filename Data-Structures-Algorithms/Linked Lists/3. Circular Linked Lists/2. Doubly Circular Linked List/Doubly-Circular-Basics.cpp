@@ -6,7 +6,7 @@ class Node {
 
 public:
 
-	float data;
+	int data;
 	Node* prev, * next;
 
 	// Constructor
