@@ -13,3 +13,15 @@
 	int queues_basics_using_array();
 
 	int queues_basics_using_linked_list();
+
+		// Queues basic Functions
+
+		void print_queue(int queue[], int queue_size);
+
+		void enqueue(int queue[], int& queue_size);
+
+		void dequeue(int queue[], int& queue_size);
+
+		void peek(int queue[], int queue_size);
+
+		void isEmpty(int queue_size);
