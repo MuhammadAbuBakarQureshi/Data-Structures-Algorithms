@@ -18,7 +18,7 @@
 
 		void print_queue(int queue[], int queue_size);
 
-		void enqueue(int queue[], int& queue_size);
+		void enqueue(int queue[], int& queue_size, int data);
 
 		void dequeue(int queue[], int& queue_size);
 
