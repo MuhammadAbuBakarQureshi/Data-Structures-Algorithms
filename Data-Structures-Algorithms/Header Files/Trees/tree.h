@@ -12,4 +12,11 @@ int bst_basics();
 
 // Tree Traversal
 
-int breadth_first_search();
+	// Breadth First Search
+
+	int breadth_first_search();
+
+
+	// Depth First Search
+
+	int pre_order_DFS();
