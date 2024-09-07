@@ -102,6 +102,21 @@
     <ClCompile Include="Stacks &amp; Queues\Queues\Queues-Basics-Using-Linked-List.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Hashing\Hash-Tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\Binary Tree\Binary-Tree-Basics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\Binary Search Tree\BST-Basics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\Tree Traversal\Breadth First Search\00-Breadth-First-Search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\Tree Traversal\Depth First Search\00-Pre-Order.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array\Array-Search.h">
@@ -117,6 +132,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Header Files\Stacks &amp; Queues\Stacks-and-Queues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Hashing\hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Trees\tree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
