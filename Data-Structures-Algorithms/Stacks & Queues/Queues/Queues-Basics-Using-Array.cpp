@@ -18,6 +18,7 @@ void print_queue(int queue[], int queue_size) {
 
 void enqueue(int queue[], int& queue_size) {
 
+
 	if (queue_size == 10) {
 
 		cout << "Queue is full." << endl;
