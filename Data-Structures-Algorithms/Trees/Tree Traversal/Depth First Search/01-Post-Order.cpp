@@ -60,6 +60,21 @@ void insert_in_tree_post_order(Node* &root, int data){
 	}
 }
 
+void post_order(Node* iterNode) {
+
+	if (iterNode->left) {
+
+		post_order(iterNode->left);
+	}
+
+	if (iterNode->right) {
+
+		post_order(iterNode->right);
+	}
+
+	cout << iterNode->data << " ";
+}
+
 int post_order_DFS(){
 
 	Node* root = nullptr;
@@ -71,6 +86,8 @@ int post_order_DFS(){
 	insert_in_tree_post_order(root, 27);
 	insert_in_tree_post_order(root, 52);
 	insert_in_tree_post_order(root, 82);
+
+	post_order(root);
 
 	return 0;
 }
