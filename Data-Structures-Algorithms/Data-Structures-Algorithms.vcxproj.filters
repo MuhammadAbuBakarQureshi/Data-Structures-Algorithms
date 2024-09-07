@@ -117,6 +117,9 @@
     <ClCompile Include="Trees\Tree Traversal\Depth First Search\00-Pre-Order.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Trees\Tree Traversal\Depth First Search\01-Post-Order.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array\Array-Search.h">
