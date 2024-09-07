@@ -12,7 +12,7 @@ using namespace std;
 
 int main() {
 
-	pre_order_DFS();
+	post_order_DFS();
 
 	return 0;
 }
