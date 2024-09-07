@@ -62,15 +62,9 @@ void insert_in_tree_post_order(Node* &root, int data){
 
 void post_order(Node* iterNode) {
 
-	if (iterNode->left) {
+	if (iterNode->left) post_order(iterNode->left);
 
-		post_order(iterNode->left);
-	}
-
-	if (iterNode->right) {
-
-		post_order(iterNode->right);
-	}
+	if (iterNode->right) post_order(iterNode->right);
 
 	cout << iterNode->data << " ";
 }
