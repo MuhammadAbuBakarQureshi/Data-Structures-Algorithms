@@ -20,3 +20,5 @@ int bst_basics();
 	// Depth First Search
 
 	int pre_order_DFS();
+
+	int post_order_DFS();
