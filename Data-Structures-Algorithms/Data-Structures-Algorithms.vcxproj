@@ -140,6 +140,7 @@
     <ClCompile Include="Array\Array Sort\Array-Functions.cpp" />
     <ClCompile Include="Data-Structures-Algorithms.cpp" />
     <ClCompile Include="Array\Array Sort\02-Insertion-Sort.cpp" />
+    <ClCompile Include="Hashing\Hash-Tables.cpp" />
     <ClCompile Include="Header Files\Array\Array-Functions.h" />
     <ClCompile Include="Linked Lists\1. Singly Linked Lists\Basic.cpp" />
     <ClCompile Include="Linked Lists\1. Singly Linked Lists\Practice Questions\02-Largest-Number-LL.cpp" />
@@ -157,13 +158,19 @@
     <ClCompile Include="Stacks &amp; Queues\Queues\Queues-Basics-Using-Linked-List.cpp" />
     <ClCompile Include="Stacks &amp; Queues\Stacks\Stack-Basics-Using-Linked-List.cpp" />
     <ClCompile Include="Stacks &amp; Queues\Stacks\Stacks-Basics-Using-Array.cpp" />
+    <ClCompile Include="Trees\Binary Search Tree\BST-Basics.cpp" />
+    <ClCompile Include="Trees\Binary Tree\Binary-Tree-Basics.cpp" />
+    <ClCompile Include="Trees\Tree Traversal\Breadth First Search\00-Breadth-First-Search.cpp" />
+    <ClCompile Include="Trees\Tree Traversal\Depth First Search\00-Pre-Order.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array\Array-Search.h" />
     <ClInclude Include="Header Files\Array\Array-Sort.h" />
+    <ClInclude Include="Header Files\Hashing\hash.h" />
     <ClInclude Include="Header Files\Linked Lists\LL.h" />
     <ClInclude Include="Header Files\Recursion.h" />
     <ClInclude Include="Header Files\Stacks &amp; Queues\Stacks-and-Queues.h" />
+    <ClInclude Include="Header Files\Trees\tree.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="text.txt" />
