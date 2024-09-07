@@ -12,7 +12,7 @@ using namespace std;
 
 int main() {
 
-	breadth_first_search();
+	pre_order_DFS();
 
 	return 0;
 }
