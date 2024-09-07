@@ -4,8 +4,6 @@ using namespace std;
 
 void print_queue(int queue[], int queue_size) {
 
-	cout << "\n\n\t\t\t\ PRINTING QUEUE \t\t\t\t\n\n" << endl;
-
 	if (queue_size == 0) {
 
 		cout << "Queue is empty. Nothing to print." << endl;
@@ -19,8 +17,6 @@ void print_queue(int queue[], int queue_size) {
 }
 
 void enqueue(int queue[], int& queue_size) {
-
-	cout << "\n\n\t\t\t\t ENQUEUE \t\t\t\t\n\n" << endl;
 
 	if (queue_size == 10) {
 
@@ -37,8 +33,6 @@ void enqueue(int queue[], int& queue_size) {
 }
 
 void dequeue(int queue[], int& queue_size) {
-
-	cout << "\n\n\t\t\t\t DEQUEUE \t\t\t\t\n\n" << endl;
 
 	if (queue_size == 0) {
 
@@ -62,8 +56,6 @@ void dequeue(int queue[], int& queue_size) {
 
 void peek(int queue[], int queue_size) {
 
-	cout << "\n\n\t\t\t\t FUNCTIONS FOR QUEUES \t\t\t\t\n\n" << endl;
-
 	if (queue_size == 0) {
 
 		cout << "Queue is empty" << endl;
@@ -74,6 +66,19 @@ void peek(int queue[], int queue_size) {
 		cout << "Peek queue is " << queue[0] << endl;
 		return;
 	}
+}
+
+void isEmpty(int queue_size) {
+
+	if (queue_size == 0) {
+
+		cout << "Yes, queue is empty." << endl;
+	}
+	else {
+
+		cout << "No, queue is not empty." << endl;
+	}
+
 }
 
 int queues_basics_using_array() {
@@ -102,32 +107,26 @@ int queues_basics_using_array() {
 		{
 		case 1:
 
+			cout << "\n\n\t\t\t\t ENQUEUE \t\t\t\t\n\n" << endl;
 			enqueue(queue, queue_size);
 			break;
 
 		case 2:
 
+			cout << "\n\n\t\t\t\t DEQUEUE \t\t\t\t\n\n" << endl;
 			dequeue(queue, queue_size);
 			break;
 
 		case 3:
 
+			cout << "\n\n\t\t\t\t QUEUE PEEK \t\t\t\t\n\n" << endl;
 			peek(queue, queue_size);
 			break;
 
 		case 4:
 
 			cout << "\n\n\t\t\t\t IS QUEUE EMPTY \t\t\t\t\n\n" << endl;
-
-			if (queue_size == 0) {
-
-				cout << "Yes, queue is empty." << endl;
-			}
-			else {
-
-				cout << "No, queue is not empty." << endl;
-			}
-
+			isEmpty(queue_size);
 			break;
 
 		case 5:
@@ -139,6 +138,7 @@ int queues_basics_using_array() {
 
 		case 6:
 
+			cout << "\n\n\t\t\t\t PRINTING QUEUE \t\t\t\t\n\n" << endl;
 			print_queue(queue, queue_size);
 			break;
 
