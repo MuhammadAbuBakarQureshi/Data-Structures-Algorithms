@@ -162,6 +162,7 @@
     <ClCompile Include="Trees\Binary Tree\Binary-Tree-Basics.cpp" />
     <ClCompile Include="Trees\Tree Traversal\Breadth First Search\00-Breadth-First-Search.cpp" />
     <ClCompile Include="Trees\Tree Traversal\Depth First Search\00-Pre-Order.cpp" />
+    <ClCompile Include="Trees\Tree Traversal\Depth First Search\01-Post-Order.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array\Array-Search.h" />
