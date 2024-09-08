@@ -22,3 +22,5 @@ int bst_basics();
 	int pre_order_DFS();
 
 	int post_order_DFS();
+
+	int in_order_DFS();
