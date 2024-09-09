@@ -108,7 +108,7 @@
     <ClCompile Include="Trees\Binary Tree\Binary-Tree-Basics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Trees\Binary Search Tree\BST-Basics.cpp">
+    <ClCompile Include="Trees\Binary Search Tree\00-BST-Basics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Trees\Tree Traversal\Breadth First Search\00-Breadth-First-Search.cpp">
@@ -121,6 +121,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Trees\Tree Traversal\Depth First Search\02-In-Order.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\Binary Search Tree\01-Maximum-Minimum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\Binary Search Tree\02-Delete-Node.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
