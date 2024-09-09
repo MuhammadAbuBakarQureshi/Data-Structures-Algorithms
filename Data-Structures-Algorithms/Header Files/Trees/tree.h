@@ -9,6 +9,7 @@ int binary_tree_basics();
 
 int bst_basics();
 
+int maximum_minimum_BST();
 
 // Tree Traversal
 
