@@ -11,6 +11,8 @@ int bst_basics();
 
 int maximum_minimum_BST();
 
+int node_deletion_BST();
+
 // Tree Traversal
 
 	// Breadth First Search
