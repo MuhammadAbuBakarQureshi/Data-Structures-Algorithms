@@ -12,7 +12,7 @@ using namespace std;
 
 int main() {
 
-	in_order_DFS();
+	node_deletion_BST();
 
 	return 0;
 }
