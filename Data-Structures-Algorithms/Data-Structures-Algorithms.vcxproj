@@ -140,7 +140,8 @@
     <ClCompile Include="Array\Array Sort\Array-Functions.cpp" />
     <ClCompile Include="Data-Structures-Algorithms.cpp" />
     <ClCompile Include="Array\Array Sort\02-Insertion-Sort.cpp" />
-    <ClCompile Include="Hashing\Hash-Tables.cpp" />
+    <ClCompile Include="Hashing\00-Hash-Tables-Basics.cpp" />
+    <ClCompile Include="Hashing\01-Hash-Map-Key-Value.cpp" />
     <ClCompile Include="Header Files\Array\Array-Functions.h" />
     <ClCompile Include="Linked Lists\1. Singly Linked Lists\Basic.cpp" />
     <ClCompile Include="Linked Lists\1. Singly Linked Lists\Practice Questions\02-Largest-Number-LL.cpp" />
