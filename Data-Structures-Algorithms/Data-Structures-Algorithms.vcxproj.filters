@@ -102,7 +102,7 @@
     <ClCompile Include="Stacks &amp; Queues\Queues\Queues-Basics-Using-Linked-List.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Hashing\Hash-Tables.cpp">
+    <ClCompile Include="Hashing\00-Hash-Tables-Basics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Trees\Binary Tree\Binary-Tree-Basics.cpp">
@@ -127,6 +127,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Trees\Binary Search Tree\02-Delete-Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hashing\01-Hash-Map-Key-Value.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
