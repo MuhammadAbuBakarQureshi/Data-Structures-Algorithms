@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -140,9 +140,11 @@
     <ClCompile Include="Array\Array Sort\Array-Functions.cpp" />
     <ClCompile Include="Data-Structures-Algorithms.cpp" />
     <ClCompile Include="Array\Array Sort\02-Insertion-Sort.cpp" />
+    <ClCompile Include="Graphs\00-Graphs-Basics.cpp" />
     <ClCompile Include="Hashing\00-Hash-Tables-Basics.cpp" />
     <ClCompile Include="Hashing\01-Hash-Map-Key-Value.cpp" />
     <ClCompile Include="Header Files\Array\Array-Functions.h" />
+    <ClCompile Include="Leet-Code.cpp" />
     <ClCompile Include="Linked Lists\1. Singly Linked Lists\Basic.cpp" />
     <ClCompile Include="Linked Lists\1. Singly Linked Lists\Practice Questions\02-Largest-Number-LL.cpp" />
     <ClCompile Include="Linked Lists\1. Singly Linked Lists\Practice Questions\00-Print-Linked-List.cpp" />
@@ -167,15 +169,18 @@
     <ClCompile Include="Trees\Tree Traversal\Depth First Search\00-Pre-Order.cpp" />
     <ClCompile Include="Trees\Tree Traversal\Depth First Search\01-Post-Order.cpp" />
     <ClCompile Include="Trees\Tree Traversal\Depth First Search\02-In-Order.cpp" />
+    <ClCompile Include="Vectors\Vector-Basics.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array\Array-Search.h" />
     <ClInclude Include="Header Files\Array\Array-Sort.h" />
+    <ClInclude Include="Header Files\Graphs\Graphs.h" />
     <ClInclude Include="Header Files\Hashing\hash.h" />
     <ClInclude Include="Header Files\Linked Lists\LL.h" />
     <ClInclude Include="Header Files\Recursion.h" />
     <ClInclude Include="Header Files\Stacks &amp; Queues\Stacks-and-Queues.h" />
     <ClInclude Include="Header Files\Trees\tree.h" />
+    <ClInclude Include="Header Files\Vectors\Vectors.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="text.txt" />
