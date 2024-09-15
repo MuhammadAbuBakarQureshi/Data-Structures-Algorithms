@@ -7,12 +7,13 @@
 #include "Header Files/Stacks & Queues/Stacks-and-Queues.h"
 #include "Header Files/Hashing/hash.h"
 #include "Header Files/Trees/tree.h"
+#include "Header Files/Vectors/Vectors.h"
 
 using namespace std;
 
 int main() {
 
-	hash_table_key_value();
+	vector_basics();
 
 	return 0;
 }
