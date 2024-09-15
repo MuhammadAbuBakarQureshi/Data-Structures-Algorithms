@@ -132,6 +132,15 @@
     <ClCompile Include="Hashing\01-Hash-Map-Key-Value.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Leet-Code.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphs\00-Graphs-Basics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vectors\Vector-Basics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array\Array-Search.h">
@@ -153,6 +162,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Header Files\Trees\tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Graphs\Graphs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Vectors\Vectors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
