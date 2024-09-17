@@ -138,7 +138,10 @@
     <ClCompile Include="Graphs\00-Graphs-Basics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Vectors\Vector-Basics.cpp">
+    <ClCompile Include="Vectors\00-Vector-Basics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vectors\01-Linear-Seaarch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
