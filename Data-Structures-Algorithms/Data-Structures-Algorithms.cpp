@@ -13,7 +13,7 @@ using namespace std;
 
 int main() {
 
-	vector_basics();
+	vector_linear_search();
 
 	return 0;
 }
