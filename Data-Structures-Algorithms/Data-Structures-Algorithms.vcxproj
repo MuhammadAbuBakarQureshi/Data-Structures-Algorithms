@@ -169,7 +169,8 @@
     <ClCompile Include="Trees\Tree Traversal\Depth First Search\00-Pre-Order.cpp" />
     <ClCompile Include="Trees\Tree Traversal\Depth First Search\01-Post-Order.cpp" />
     <ClCompile Include="Trees\Tree Traversal\Depth First Search\02-In-Order.cpp" />
-    <ClCompile Include="Vectors\Vector-Basics.cpp" />
+    <ClCompile Include="Vectors\00-Vector-Basics.cpp" />
+    <ClCompile Include="Vectors\01-Linear-Seaarch.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array\Array-Search.h" />
