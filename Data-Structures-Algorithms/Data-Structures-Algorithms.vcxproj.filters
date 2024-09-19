@@ -144,6 +144,9 @@
     <ClCompile Include="Vectors\01-Linear-Seaarch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Vectors\02-Vector-Reverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array\Array-Search.h">
