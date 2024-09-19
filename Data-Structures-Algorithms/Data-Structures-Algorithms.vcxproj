@@ -171,6 +171,7 @@
     <ClCompile Include="Trees\Tree Traversal\Depth First Search\02-In-Order.cpp" />
     <ClCompile Include="Vectors\00-Vector-Basics.cpp" />
     <ClCompile Include="Vectors\01-Linear-Seaarch.cpp" />
+    <ClCompile Include="Vectors\02-Vector-Reverse.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array\Array-Search.h" />
