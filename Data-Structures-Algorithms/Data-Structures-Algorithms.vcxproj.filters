@@ -147,6 +147,15 @@
     <ClCompile Include="Vectors\02-Vector-Reverse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Array\Sub-Arrays\00-Print-All-SubArrays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\Sub-Arrays\01-Maximum-SubArray-Sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\Sub-Arrays\02-Kadanes-Algorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\Array\Array-Search.h">
@@ -176,8 +185,17 @@
     <ClInclude Include="Header Files\Vectors\Vectors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Time &amp; Space Complexity\Images Notes\sd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Array\Sub-Arrays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="text.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Time &amp; Space Complexity\Images Notes\Best-And-Worst.jpg" />
   </ItemGroup>
 </Project>
