@@ -138,6 +138,9 @@
     <ClCompile Include="Array\Array Sort\05-Radix-Sort.cpp" />
     <ClCompile Include="Array\Array Sort\06-Merge-Sort.cpp" />
     <ClCompile Include="Array\Array Sort\Array-Functions.cpp" />
+    <ClCompile Include="Array\Sub-Arrays\01-Maximum-SubArray-Sum.cpp" />
+    <ClCompile Include="Array\Sub-Arrays\00-Print-All-SubArrays.cpp" />
+    <ClCompile Include="Array\Sub-Arrays\02-Kadanes-Algorithm.cpp" />
     <ClCompile Include="Data-Structures-Algorithms.cpp" />
     <ClCompile Include="Array\Array Sort\02-Insertion-Sort.cpp" />
     <ClCompile Include="Graphs\00-Graphs-Basics.cpp" />
@@ -176,6 +179,7 @@
   <ItemGroup>
     <ClInclude Include="Header Files\Array\Array-Search.h" />
     <ClInclude Include="Header Files\Array\Array-Sort.h" />
+    <ClInclude Include="Header Files\Array\Sub-Arrays.h" />
     <ClInclude Include="Header Files\Graphs\Graphs.h" />
     <ClInclude Include="Header Files\Hashing\hash.h" />
     <ClInclude Include="Header Files\Linked Lists\LL.h" />
@@ -183,9 +187,13 @@
     <ClInclude Include="Header Files\Stacks &amp; Queues\Stacks-and-Queues.h" />
     <ClInclude Include="Header Files\Trees\tree.h" />
     <ClInclude Include="Header Files\Vectors\Vectors.h" />
+    <ClInclude Include="Time &amp; Space Complexity\Images Notes\sd.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="text.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Time &amp; Space Complexity\Images Notes\Best-And-Worst.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
