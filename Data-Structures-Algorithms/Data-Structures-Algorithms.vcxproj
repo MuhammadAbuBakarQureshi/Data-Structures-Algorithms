@@ -128,6 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Array\Array Questions\00-Majority-Element.cpp" />
     <ClCompile Include="Array\Array Search\00-Lowest-Value.cpp" />
     <ClCompile Include="Array\Array Search\01-Linear-Search.cpp" />
     <ClCompile Include="Array\Array Search\02-Binary-Search.cpp" />
@@ -141,12 +142,14 @@
     <ClCompile Include="Array\Sub-Arrays\01-Maximum-SubArray-Sum.cpp" />
     <ClCompile Include="Array\Sub-Arrays\00-Print-All-SubArrays.cpp" />
     <ClCompile Include="Array\Sub-Arrays\02-Kadanes-Algorithm.cpp" />
+    <ClCompile Include="Array\Sub-Arrays\03-Pair-Sum.cpp" />
     <ClCompile Include="Data-Structures-Algorithms.cpp" />
     <ClCompile Include="Array\Array Sort\02-Insertion-Sort.cpp" />
     <ClCompile Include="Graphs\00-Graphs-Basics.cpp" />
     <ClCompile Include="Hashing\00-Hash-Tables-Basics.cpp" />
     <ClCompile Include="Hashing\01-Hash-Map-Key-Value.cpp" />
     <ClCompile Include="Header Files\Array\Array-Functions.h" />
+    <ClCompile Include="Header Files\Array\Array-Questions.h" />
     <ClCompile Include="Leet-Code.cpp" />
     <ClCompile Include="Linked Lists\1. Singly Linked Lists\Basic.cpp" />
     <ClCompile Include="Linked Lists\1. Singly Linked Lists\Practice Questions\02-Largest-Number-LL.cpp" />
